@@ -11,6 +11,6 @@ namespace Ecommerce.Models
         public int Qty { get; set; }
 
         public string UserId { get; set; }
-        public IdentityUser User { get; set; }
+        public ApplicationUser User { get; set; }
     }
 }

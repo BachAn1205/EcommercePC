@@ -20,5 +20,7 @@ namespace Ecommerce.Data
         public DbSet<Order> Orders { get; set; }
 
         public DbSet<OrderProduct> OrderProducts { get; set; }  
+
+        public DbSet<Category> Categories { get; set; }
     }
 }

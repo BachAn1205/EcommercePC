@@ -147,6 +147,9 @@ namespace Ecommerce.Areas.Dashboard.Controllers
 
                     }
 
+                    oldCategory.Name = category.Name;
+                    oldCategory.Description = category.Description;
+
                     _context.Update(oldCategory);
                     await _context.SaveChangesAsync();
                 }

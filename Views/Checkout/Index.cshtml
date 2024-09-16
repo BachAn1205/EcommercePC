@@ -14,7 +14,7 @@
                     <div class="card-body">
                         <h5>@addres.User.UserName</h5>
                         <p>@addres.AddresssLine, @addres.City @addres.State - @addres.PinCode</p>
-                        <a asp-controller="Checkout" asp-action="Confirm" asp-route-addressId="@addres.Id" class="btn btn-primary">Deliver here</a>
+                        <a asp-controller="Checkout" asp-action="PaymentOptions" asp-route-addressId="@addres.Id" class="btn btn-primary">Deliver here</a>
                     </div>
                 </div>
             </div>
